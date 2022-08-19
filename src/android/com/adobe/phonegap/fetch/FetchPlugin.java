@@ -61,7 +61,7 @@ public class FetchPlugin extends CordovaPlugin {
                      } else {
                          contentType = "application/json";
                      }
-                     requestBuilder.post(RequestBody.create(MediaType.parse(contentType), postBody.toString()));
+                     requestBuilder.method(method, RequestBody.create(MediaType.parse(contentType), postBody.toString()));
                 } else {
                     requestBuilder.method(method, null);
                 }
