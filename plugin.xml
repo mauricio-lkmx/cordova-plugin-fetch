@@ -32,7 +32,7 @@ SOFTWARE.
     <engines>
         <engine name="cordova" version=">=3.0.0" />
     </engines>
-    <repo>https://github.com/aporat/cordova-plugin-fetch.git</repo>
+    <repo>https://github.com/mauricio-lkmx/cordova-plugin-fetch.git</repo>
     <issue>https://github.com/aporat/cordova-plugin-fetch/issues</issue>
     <license>MIT</license>
 
